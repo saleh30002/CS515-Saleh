@@ -40,7 +40,7 @@ BASIC_ARCH_EXPS = [
     "exp17_basic", "exp18_basic_dropout", "exp19_basic_scheduler",
     "exp20_basic_bn", "exp21_basic_l1", "exp23_basic_deeper",
     "exp24_basic_shallower", "exp25_basic_narrower", "exp26_basic_wider",
-    "exp27_basic_l2", "exp28_basic_gelu",
+    "exp27_basic_l2", "exp28_basic_gelu", "exp29_basic_bn_after"
 ]
 
 

@@ -387,6 +387,24 @@ EXPERIMENTS: dict = {
         early_stop_patience=5,
     ),
 
+    "exp29_basic_bn_after": ExperimentConfig(
+        hidden_sizes=[512, 256],
+        activation="relu",
+        use_bn=True,
+        dropout=0.0,
+        regularizer=None,
+        reg_coeff=0.0,
+        lr=1e-3,
+        batch_size=64,
+        epochs=10,
+        weight_decay=1e-4,
+        scheduler="none",
+        scheduler_step_size=5,
+        scheduler_gamma=0.5,
+        early_stop_patience=5,
+        bn_after_activation=True,  # BatchNorm after activation
+    ),
+
     "exp21_basic_l1": ExperimentConfig(
         hidden_sizes=[512, 256],
         activation="relu",
